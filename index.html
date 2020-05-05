@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
@@ -7,6 +7,8 @@
     <title>Whiskey Drop | Taste a new whiskey every month</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
@@ -43,19 +45,23 @@
         </div>
         <!--</div>-->
     </nav>
-    <article class="container mt-3">
-        <div class="row d-none d-sm-block">
-            <div class="col-12">
-                <div class="alert alert-warning">
-                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>
-                </div>
-            </div>
-        </div>
+    <!--<div class="container alert-container">-->
+    <!--    <div class="row d-none d-sm-block">-->
+    <!--        <div class="col-12">-->
+    <!--            <div class="alert alert-warning">-->
+    <!--                <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+    <div class="container-fluid callout-container">
         <!-- Callout -->
+        <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+                    <hr class="block-divider block-divider--orange">
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
                         <s class="d-none d-sm-inline">€19.99</s>
                         <span class="d-inline d-sm-none"><br></span>
@@ -65,10 +71,11 @@
                 </section>
             </div>
         </div>
-        <!-- /.callout -->
-        <hr>
-       
-        <!-- Quotes -->
+    </div>
+    <!-- /.callout -->
+
+    <!-- Quotes -->
+    <div class="container quotes-container">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -80,7 +87,7 @@
                 <div class="col-12 col-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img src="images/girl-image.png" class="rounded-circle mr-3" height=100 width=100>
+                            <img src="https://lh3.googleusercontent.com/eaz0fLBTvAdo8CmZspJ43XncqQC_3GX3hb6mcWHVbM6Vpq54zXE5klBe7Ft0PHZj2DQKD-4=s93" class="rounded-circle mr-3" height=100 width=100>
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
@@ -93,7 +100,7 @@
                 <div class="col-12 col-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img src="images/guy-image.png" class="rounded-circle mr-3" height=100 width=100>
+                            <img src="https://lh3.googleusercontent.com/yss5k7tD0VJmGRZeNhvt5OzPz6K_PU1TjHqEv6JJ3BTSgSYM6jveVAKgsTJ7X_uJzWCU=s90" class="rounded-circle mr-3" height=100 width=100>
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
@@ -105,11 +112,11 @@
                 </div>
             </div>
         </section>
-        <!-- /.quotes -->
-        
-        <hr>
-        
-        <!-- Features -->
+    </div>
+    <!-- /.quotes -->
+
+    <!-- Features -->
+    <div class="features-container">
         <section class="features">
             <div class="row">
                 <div class="col-12 my-5">
@@ -141,11 +148,9 @@
                 </div>
             </div>
         </section>
-        <hr>
+    </div>
+    <!-- /.features -->
 
-         <!-- Features -->
-    </article>
-    
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -176,6 +181,7 @@
             </div>
         </div>
     </div>
+     
      <!--Top 5 whiskeys of the month -->
     <section>Top 5 whiskeys of the months </section> 
         <table class="table table-sm">
@@ -219,7 +225,7 @@
     </tr>
     <!--Top 5 whiskeys of the month -->
     
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
